@@ -1,0 +1,79 @@
+<!DOCTYPE html> <!-- Здесь указывается версия html, раньше это было длиньше, сейчас намного проще -->
+<html> <!-- Теги. Здесь и дальше просто сообщается что блок html -->
+
+  <head> <!-- В этом теге указываются свойства, характеристики какого-либо блока на странице, также
+
+    единственная надпись - на вкладке вверху -->
+    <meta charset="utf-8"> <!-- Здесь указали кодировку, для текста, выбрали оптимальную для работы как с RU так и с ENG.
+    meta-теги = метаданные, указываются на каждую страницу свои, для указания каких-либо свойств страницы,
+    жёлтое - это атрибуты этого meta-тега. -->
+    <meta name="author" content="Даренский Павел">
+    <meta name="description" content="Магазин автозапчастей для иномарок">
+    <meta name="keywords" content="автозапчасти,иномарки,магазин">
+
+    <title>О нас</title> <!-- то самое название для вкладки вверху -->
+
+  </head>
+
+  <body> <!-- тут уже основные всякие блоки страницы, текста, заголовки и т.д. -->
+
+    <p>Привет!</p>
+
+    <!-- РАБОТА С ТАБЛИЦАМИ -->
+    <table border="1" width="500px">
+
+      <thead> <!-- Шапка таблицы -->
+        <tr> <!-- table row -->
+          <th> Имя </th> <!-- table header - заголовок столбца -->
+          <th> Фамилия </th>
+        </tr>
+      </thead>
+
+      <tbody align="center">
+        <tr>
+          <td> Aboba </td>
+          <td> Abobickov </td>
+        </tr>
+        <tr>
+          <td> Aboba </td>
+          <td> Abobickov </td>
+        </tr>
+        <tr>
+          <td> Aboba </td>
+          <td> Abobickov </td>
+        </tr>
+        <tr>
+          <td> Aboba </td>
+          <td> Abobickov </td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <td> Last </td>
+          <td> One </td>
+        </tr>
+      </tfoot>
+
+    </table>
+
+    <br><br>
+
+    <form>
+      <textarea placeholder="Введите текст..." maxlength="1000"></textarea>
+      <br><br>
+
+      <button type="button">Готово</button> <br><br>
+
+      <!-- LIST VALUES -->
+      <select>
+        <option disabled selected>----</option>
+        <option>BMW</option>
+        <option>Audi</option>
+        <option>Mercedes</option>
+      </select>
+    </form>
+
+  </body>
+
+</html>
